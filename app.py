@@ -1,5 +1,5 @@
 def hello():
-    print("Hello from DevOps Week 02 app")
+    print("Hello from DevOps Week 02 app - production build")
 
 if __name__ == "__main__":
     hello()
