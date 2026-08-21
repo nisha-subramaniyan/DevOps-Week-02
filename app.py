@@ -1,5 +1,10 @@
+import logging
+
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
+
 def hello():
-    print("Hello from DevOps Week 02 app - production build")
+    logger.info("Hello from DevOps Week 02 app - production build")
 
 if __name__ == "__main__":
     hello()
